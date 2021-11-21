@@ -11,7 +11,7 @@
 - Storage
 6) Jupyter Notebook
 ```
-## Setup Great Expectations with Bigquery
+## Setup Great Expectations with BigQuery Database
 1) Upgrade python
 ```
 python --version
