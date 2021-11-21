@@ -14,11 +14,10 @@
 ## Setup Great Expectations with Bigquery
 1) Upgrade python
 ```
-# if python is version 3
 python --version
 python -m ensurepip --upgrade
 ```
-2)# if python is version 3
+2) Install Great Expectaitons
 ```
 python -m pip install great_expectations
 ```
