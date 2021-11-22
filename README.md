@@ -6,8 +6,8 @@
 3) Pybigquery v0.10.2
 4) Pyarrow v6.0.0
 5) Google Cloud :
-  - Bigquery
-  - Storage
+   - Bigquery
+   - Storage
 ## Data
 1) 2021-10-10 dataset that contains: inventory, products, sales, stores(training data)
 2) 2021-10-11 dataset that contains: inventory, products, sales, stores(testing data)
@@ -70,11 +70,11 @@ pip install pyarrow
   - This will open a new Jupyter Notebook, then follow the instruction in there and make sure to choose your data source (table name) in data_asset_name and expectation(suite) in expectation_suite_name
   - Execute all cells and uncomment the last cell in the notebook in order to store the checkpoint, your checkpoint will be saved in checkpoint folder
   ![image](https://user-images.githubusercontent.com/38213112/142864870-ddf73800-c722-47e4-b3f2-2b29d9eeeed3.png)
-7)  Build data docs
-Use the following CLI command 
-```
-great_expectations --v3-api docs build --site-name local_site
-```
-- This command will create new documentation locally (*https://docs.greatexpectations.io/docs/guides/setup/configuring_data_docs/how_to_host_and_share_data_docs_on_a_filesystem/)
-![image](https://user-images.githubusercontent.com/38213112/142853625-df282215-7c35-4022-8f58-4314447a96a5.png)
-(*https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24)
+7) Build data docs
+   - Use the following CLI command 
+  ```
+  great_expectations --v3-api docs build --site-name local_site
+  ```
+   - This command will create new documentation locally     (*https://docs.greatexpectations.io/docs/guides/setup/configuring_data_docs/how_to_host_and_share_data_docs_on_a_filesystem/)
+   ![image](https://user-images.githubusercontent.com/38213112/142853625-df282215-7c35-4022-8f58-4314447a96a5.png)
+   (*https://towardsdatascience.com/great-expectations-always-know-what-to-expect-from-your-data-51214866c24)
