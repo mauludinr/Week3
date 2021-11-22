@@ -2,6 +2,8 @@
 
 Great Expectaitons is the tool for validating, documenting, and profiling your data to maintain quality
 
+![ge_overview-12fb8aa5caade62567e21be108526231](https://user-images.githubusercontent.com/38213112/142916015-d90db60f-a395-448c-a9be-07e0f6c926c6.png)
+
 (*https://docs.greatexpectations.io/docs/)
 
 ## Tools
